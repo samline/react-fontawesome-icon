@@ -1,6 +1,6 @@
 # react-fontawesome-icon
 
-An easy way to include FontAwesome icons in your React applications without having to add each icon separately.
+An easy way to include FontAwesome (v6.4.0) icons in your React applications without having to add each icon separately.
 
 ![npm](https://img.shields.io/npm/v/@honeybee-js/react-fontawesome-icon?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/react-fontawesome-icon?style=flat-square)
@@ -41,6 +41,11 @@ import { FontAwesomeIcon } from "@honeybee-js/react-fontawesome-icon"
 
 ```jsx
 <FontAwesomeIcon icon="..." lib="..." ...styledSystemProps />
+```
+
+```jsx
+/* Example */
+<FontAwesomeIcon icon="facebook-f" lib="fab" color="#3b5998" fontSize="20px" />
 ```
 
 ## License
