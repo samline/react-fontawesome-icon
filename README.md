@@ -6,7 +6,6 @@ An easy way to include FontAwesome icons in your React applications without havi
 ![npm](https://img.shields.io/npm/dt/react-fontawesome-icon?style=flat-square)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@honeybee-js/react-fontawesome-icon?style=flat-square)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
-![NPM](https://img.shields.io/npm/l/@honeybee-js/react-fontawesome-icon?style=flat-square)
 
 ## Install
 
@@ -35,8 +34,10 @@ yarn add @honeybee-js/react-fontawesome-icon
  * @styleSystem docs - https://styled-system.com/table
  */
 
- <FontAwesomeIcon icon="..." lib="..." ...styledSystemProps />
+```
 
+```
+<FontAwesomeIcon icon="..." lib="..." ...styledSystemProps />
 ```
 
 ## License
