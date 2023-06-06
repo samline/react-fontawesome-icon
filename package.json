@@ -26,7 +26,8 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "prepare": "npx swc ./src/index.jsx -o ./dist/index.js"
+
+    "prepare": "npx swc ./src -d dist"
   },
   "peerDependencies": {
     "react": "^18.2.0",
