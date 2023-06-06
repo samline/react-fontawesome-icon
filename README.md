@@ -10,10 +10,10 @@ An easy way to include FontAwesome icons in your React applications without havi
 ## Install
 
 ```bash
-npm install --save @honeybee-js/react-fontawesome-icon
+npm i --save @honeybee-js/react-fontawesome-icon
+```
 
-or
-
+```bash
 yarn add @honeybee-js/react-fontawesome-icon
 ```
 
@@ -33,10 +33,13 @@ yarn add @honeybee-js/react-fontawesome-icon
  * @fontawesome docs - https://fontawesome.com/search
  * @styleSystem docs - https://styled-system.com/table
  */
-
 ```
 
+```jsx
+import { FontAwesomeIcon } from "@honeybee-js/react-fontawesome-icon"
 ```
+
+```jsx
 <FontAwesomeIcon icon="..." lib="..." ...styledSystemProps />
 ```
 
