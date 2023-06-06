@@ -11,8 +11,8 @@
       "require": "./dist/index.js"
     }
   },
-  "homepage": "https://github.com/...",
-  "repository": "...",
+  "homepage": "https://github.com/samline/react-fontawesome-icon",
+  "repository": "samline/react-fontawesome-icon",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
