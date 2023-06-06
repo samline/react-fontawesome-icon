@@ -31,7 +31,7 @@ yarn add @honeybee-js/react-fontawesome-icon
  * @returns component
  *
  * @fontawesome docs - https://fontawesome.com/search
- * @styleSystem docs - https://styled-system.com/table
+ * @styledSystem docs - https://styled-system.com/table
  */
 ```
 
