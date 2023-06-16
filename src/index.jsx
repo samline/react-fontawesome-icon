@@ -10,7 +10,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fab, far, fas)
 
 /* Styles */
-import { Icon } from './styles.jsx'
+import { Icon } from './styles.js'
 
 /**
  * FontAwesomeIcon
@@ -26,8 +26,8 @@ import { Icon } from './styles.jsx'
  * @styleSystem docs - https://styled-system.com/table
  */
 
-export const FontAwesomeIcon = ({ icon, lib = 'fas', innerRef, ...props }) => {
+const FontAwesomeIcon = ({ icon, lib = 'fas', innerRef, ...props }) => {
   return <Icon icon={[lib, icon]} {...props} ref={innerRef} />
 }
 
-export { library }
+export { library, FontAwesomeIcon}
