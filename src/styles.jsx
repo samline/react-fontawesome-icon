@@ -12,7 +12,10 @@ import {
 /* Package Components */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const Icon = styled(FontAwesomeIcon)`
+/* ./ */
+import { _interopDefault } from './_interop.js'
+
+export const Icon = _interopDefault(styled)(FontAwesomeIcon)`
   height: 1em;
   ${compose(color, layout, position, space, typography)}
 `
