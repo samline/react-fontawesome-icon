@@ -10,7 +10,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fab, far, fas)
 
 /* Styles */
-import { Icon } from './styles'
+import { Icon } from './styles.jsx'
 
 /**
  * FontAwesomeIcon
