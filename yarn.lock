@@ -322,6 +322,11 @@
   dependencies:
     prop-types "^15.8.1"
 
+"@honeybee-js/js-interop@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@honeybee-js/js-interop/-/js-interop-0.0.1.tgz#cd392b323f15d2aa7c9f80e68306c7e0bd6538fe"
+  integrity sha512-d2Q9W59YSPaSXKuLou+KXzv5LZVKxu8J3d6e25vnzg6Gg0O33dsCWBiTfpXZkMug/kmkj1ejb27cyrGprmPH7g==
+
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.10.tgz#5a3ffe32cc9306365fb3fd572596cd602d5e12d2"

@@ -1,6 +1,6 @@
 {
   "name": "@honeybee-js/react-fontawesome-icon",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -50,6 +50,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@honeybee-js/js-interop": "^0.0.1",
     "styled-components": "^5.3.10",
     "styled-system": "^5.1.5"
   },
