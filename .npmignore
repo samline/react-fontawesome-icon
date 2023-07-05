@@ -21,6 +21,7 @@ yarn-error.log*
 *.local
 dist-ssr
 node_modules
+node_modules/*
 
 !.vscode/extensions.json
 .DS_Store

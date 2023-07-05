@@ -20,14 +20,14 @@ import { Icon } from './styles.js'
  * @param {...styledSystemProps} [color, layout, position, space, typography]
  * @param {...any} props
  *
- * @returns component
+ * @returns FontAwesomeIcon, library
  *
  * @fontawesome docs - https://fontawesome.com/search
  * @styleSystem docs - https://styled-system.com/table
  */
 
-const FontAwesomeIcon = ({ icon, lib = 'fas', innerRef, ...props }) => {
-  return <Icon icon={[lib, icon]} {...props} ref={innerRef} />
-}
+const FontAwesomeIcon = ({ icon, lib = fas, innerRef, ...props }) => (
+  <Icon icon={[lib, icon]} {...props} ref={innerRef} />
+)
 
-export { library, FontAwesomeIcon}
+export { FontAwesomeIcon }
