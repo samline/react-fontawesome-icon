@@ -26,8 +26,6 @@ import { Icon } from './styles.js'
  * @styleSystem docs - https://styled-system.com/table
  */
 
-const FontAwesomeIcon = ({ icon, lib = fas, innerRef, ...props }) => (
+export const FontAwesomeIcon = ({ icon, lib = fas, innerRef, ...props }) => (
   <Icon icon={[lib, icon]} {...props} ref={innerRef} />
 )
-
-export { FontAwesomeIcon }

@@ -1,4 +1,5 @@
 /* Packages */
+import { _interop } from '@honeybee-js/js-interop'
 import styled from 'styled-components'
 import {
   color,
@@ -10,10 +11,12 @@ import {
 } from 'styled-system'
 
 /* Package Components */
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import { faStyles } from './fa-styles.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const Icon = styled(FontAwesomeIcon)`
+export const Icon = _interop(styled)(FontAwesomeIcon)`
+  ${faStyles}
+
   height: 1em;
   ${compose(color, layout, position, space, typography)}
 `

@@ -4,7 +4,7 @@
     "parser": {
       "syntax": "ecmascript",
       "jsx": true,
-      "dynamicImport": false,
+      "dynamicImport": true,
       "privateMethod": false,
       "functionBind": false,
       "exportDefaultFrom": false,
