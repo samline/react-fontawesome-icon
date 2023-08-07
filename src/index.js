@@ -10,7 +10,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fab, far, fas)
 
 /* Styles */
-import { Icon } from './styles.js'
+import { Icon } from './styles/index.js'
 
 /**
  * FontAwesomeIcon
@@ -27,5 +27,20 @@ import { Icon } from './styles.js'
  */
 
 export const FontAwesomeIcon = ({ icon, lib = fas, innerRef, ...props }) => (
-  <Icon icon={[lib, icon]} {...props} ref={innerRef} />
+  <Icon
+    icon={[lib, icon]}
+    style={{ ...props.style, height: '1em' }}
+    {...props}
+    ref={innerRef}
+  />
 )
+
+/**
+ * library
+ *
+ * @returns library
+ *
+ * @fontawesome docs - https://fontawesome.com/v5/docs/web/use-with/react#using-icons-via-global-use
+ */
+
+export { library }
